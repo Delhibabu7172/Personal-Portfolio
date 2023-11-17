@@ -9,10 +9,12 @@
      grid-template-columns: repeat(3,1fr); 
      grid-gap: 40px;
      padding-bottom: 5rem;
+     padding-top: 2rem;
 }
 .project-card{
     padding: 1.2rem 1rem;
     background: #1a1919;
+    /* padding-top: .8rem; */
     transition: .3s;
 }
 .project-container .project-card:hover{

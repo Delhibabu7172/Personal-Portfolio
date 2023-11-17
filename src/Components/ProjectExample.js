@@ -6,7 +6,6 @@ import { projectcarddata } from "./Projectcards"
 function ProjectExample() {
   return (
     <div className="project-card">
-    <h1 className="project-heading">Projects</h1>
     <div className="project-container">
       {projectcarddata.map((val,index) => {
         return (
