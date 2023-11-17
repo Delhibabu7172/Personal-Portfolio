@@ -5,11 +5,11 @@ import "./ContactForm.css"
 export const ContactForm = () => {
   const form = useRef();
   let [confrom,setconfrom]=useState(false)
-  let [getinput,setgetinput]=useState({un:"",em:"",mes:""})
+  // let [getinput,setgetinput]=useState({un:"",em:"",mes:""})
 
   let updateinput=({target:{value,name}})=>{
     setgetinput({...getinput,[name]:value})
-    
+
   }
 
   const sendEmail = (e) => {
@@ -24,7 +24,7 @@ export const ContactForm = () => {
       });
   };
   let upadtesetconfrom=()=>{
-    setgetinput({un:"",em:"",mes:""})
+    // setgetinput({un:"",em:"",mes:""})
     
     setconfrom(!confrom)
 
@@ -37,11 +37,11 @@ export const ContactForm = () => {
     <div>
         <form  ref={form} onSubmit={sendEmail}>
             <label>Your Name :</label>
-            <input type="text" onChange={updateinput} value={getinput.un} name="un" />
+            <input type="text" onChange={updateinput} name="un" />
             <label>Your Email :</label>
-            <input type="email" onChange={updateinput} value={getinput.em} name="em"  />
+            <input type="email" onChange={updateinput} name="em"  />
           
-            <textarea onChange={updateinput} value={getinput.mes} placeholder="Type Your Text Here" name='mes'></textarea>
+            <textarea onChange={updateinput}  placeholder="Type Your Text Here" name='mes'></textarea>
             <input type="submit" value="Send" className='btn' onClick={upadtesetconfrom}/>
         </form>
         <h1 style={{color:"yellow"}}>{confrom ? "Email sent Successfully":""}</h1>
