@@ -9,8 +9,8 @@ export const ContactForm = () => {
 
   let updateinput=({target:{value,name}})=>{
     setgetinput({...getinput,[name]:value})
+    
   }
-  
 
   const sendEmail = (e) => {
     e.preventDefault();
