@@ -5,6 +5,7 @@ import Footer from '../Components/Footer'
 import Aboutcontent from '../Components/Aboutcontent'
 import ProjectExample from '../Components/ProjectExample'
 import { ContactUs } from '../Components/ContactForm'
+import Skills from '../Components/Skills'
 
 function Home() {
   return ( <React.Fragment>
@@ -12,7 +13,8 @@ function Home() {
     <Heroimg/>
     <div style={{textAlign:"center",marginTop:"50px"}}><h1 style={{borderBottom:"3px solid green",display:"inline-block",paddingBottom:".5rem"}}>ABOUT</h1></div>
     <Aboutcontent/>
-    <div style={{textAlign:"center",marginTop:"50px",background: "#1a1919",paddingTop:"25px"}}><h1 style={{borderBottom:"3px solid green",display:"inline-block",paddingBottom:".5rem"}}>PROJECTS</h1></div>
+    <Skills/>
+    <div style={{textAlign:"center",background: "#1a1919",paddingTop:"35px"}}><h1 style={{borderBottom:"3px solid green",display:"inline-block",paddingBottom:".5rem"}}>PROJECTS</h1></div>
     <ProjectExample/>
     <div style={{textAlign:"center",marginTop:"50px"}}><h1 style={{borderBottom:"3px solid green",display:"inline-block",paddingBottom:".5rem"}}>CONTACT</h1></div>
     <ContactUs/>

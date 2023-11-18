@@ -102,7 +102,7 @@ border: 1px solid #333;
     width: 100%;
     height: 100%;
     background: linear-gradient(45deg, #ff7a7a, #ffd700); /* Change gradient colors */
-    mix-blend-mode: multiply; /* Overlay blend mode */
+    mix-blend-mode: multiply; 
   }
   
   
@@ -114,36 +114,52 @@ border: 1px solid #333;
     flex-direction: row;
     padding: 2rem 3rem;
   }
-  .education-item {
-    background-color: #3f3e3e;
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 20px;
-    color: #fff;
-    text-align: center;
+  .edu-list{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    align-items: center;
+    /* border: 1px solid red; */
+    padding: 3rem 0;
   }
-  
-  .edu-list h1 {
-    margin-bottom: .9rem;
+  .edu-list h1{
+    text-align: start;
   }
-  li{
-    padding: .5rem 0;
+  .edu-list-contain{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
   }
-  
-  .education-item p {
-    margin-bottom: 10px;
+  .edu-container{
+    padding: 1.5rem 4.5rem;
+    background-color: #333;
+    display: flex;
+  flex-direction: column;
+  margin-top: 1.8rem;
+  border-radius: 5px;
+  text-align: center;  
   }
-  
-  .education-item ul {
-    padding-left: 20px;
+  .edu-container h3{
+    margin-bottom: .5rem;
   }
-.education-item h3{
-    padding-bottom: 1rem;
+.edu-container ul li{
+  margin: 15px 0;
 }
   
   /* Adjust styles to fit your design preferences */
   
-
+  @media screen and (max-width:768px){
+    .about{
+     flex-direction: row;
+     flex-wrap: wrap-reverse;
+    }
+    .education{
+        flex-direction: column;
+    }
+    .edu-container{
+    padding: 1.5rem 4rem;
+    }
+}
 
 @media screen and (max-width:426px){
     .about{
@@ -153,4 +169,7 @@ border: 1px solid #333;
     .education{
         flex-direction: column;
     }
+    .edu-container{
+      padding: .5rem 0;
+      }
 }

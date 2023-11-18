@@ -37,25 +37,26 @@ function Aboutcontent() {
             </div>
         </div>
         <div className="edu-list">
-          <h1>EDUCATION :</h1>
-          
-          <div className="education-item">
+          <h1>EDUCATION</h1>
+          <div className="edu-list-contain">
+          <div className="edu-container">
             <h3>Bachelor of Computer Application</h3>
             <ul>
               <li>Voorhees College, Vellore, TamilNadu.</li>
               <li>Year : 2020 - 2023</li>
             </ul>
           </div>
-       
-
-          <div className="education-item">
+          <div  className="edu-container">
             <h3>HSC </h3>
             <ul>
               <li>Seventh Day Adventist, Vellore, TamilNadu.</li>
               <li>Year : 2019 - 2020</li>
-              {/* Add more courses or details */}
             </ul>
           </div>
+          </div>
+         
+
+         
         
         </div>
       </div>
