@@ -1,35 +1,35 @@
-import "./Projectcard.css"
 import React from 'react'
-import { FaGithub,  } from "react-icons/fa"
-import { NavLink } from "react-router-dom"
-// import {bi} from "bootstrap-icons"
+import SourceIcon from '@mui/icons-material/Source';
+import PreviewIcon from '@mui/icons-material/Preview';
 
-
-function Projectcard(props) {
+function Projectcard({imgsrc,title,view,source,byusing1,byusing2,byusing3,text}) {
   return (
-      <div className="main-card">
-    <div className="project-card">
-    <img src={props.imgsrc} alt="image" />
-    <div className="details">
-    <h2 className="project-title">{props.title}</h2>
-    <div className="pro-details">
-        <p>{props.text}</p>
-        <div className="byusing">
-          <ul>
-            <li>Reactjs</li>
-            <li>javascript</li>
-            <li>css</li>
-          </ul>
+    <div className='main-container'>
+<div className='container-content'>
+<div className='project-img'>
+      <img src={imgsrc}  alt="" />
+      </div>
+      <div className='project-content'>
+        <h2>{title}</h2>
+        <p>{text}</p>
+        <ul>
+          <li>{byusing1}</li>
+          <li>{byusing2}</li>
+          <li>{byusing3}</li>
+        </ul>
+        <div className='project-icons'>
+          <a href={view}> <SourceIcon className="list-icon"/></a>
+          <a href={source}> <PreviewIcon className="list-icon"/></a>
         </div>
-        <div className="pro-btns">
-            <NavLink to={props.view}><i className="bi bi-eye-fill"></i></NavLink>
-            <NavLink to={props.source} className="second"><FaGithub/></NavLink>
-        </div>
-    </div>
-    </div>
+      </div>
 </div>
-</div>
+    </div>
   )
 }
 
 export default Projectcard
+
+
+
+
+{/* <SourceIcon className="list-icon"/> */}

@@ -20,11 +20,11 @@ export const ContactUs = () => {
 
     emailjs.sendForm('service_dur2r4q', 'template_r3u19ip', form.current, 'oqvAc5obk3rKsrgP2')
       .then((result) => {
-          console.log(result.text);
+          // console.log(result.text);
           form.current.reset();
           Notify()
       }, (error) => {
-          console.log(error.text);
+          // console.log(error.text);
       });
   };
 

@@ -19,6 +19,7 @@
 }
 .education .right{
     max-width: 700px;
+    margin:auto;
 }
 .right .image-container{
     display: grid;
@@ -27,10 +28,6 @@
     align-items: center;
     text-align: center;
 }
-/* .right .image-stack.top img{
-    height: 250px;
-    width: 400px;
-} */
 .right .image{
 max-width: 90%;
 border: 1px solid #333;
@@ -46,31 +43,9 @@ border: 1px solid #333;
     grid-row: 1;
     z-index: 5;
 }
-
-
-/* Add this CSS to your Aboutcontent.css file or appropriate stylesheet */
-
-/* Education Section */
-.education {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 40px;
-  }
-  
   .myphoto {
     margin-bottom: 20px;
   }
-  
-  .edu-list {
-    width: 80%;
-    max-width: 600px;
-    margin-bottom: 30px;
-  }
-
-
-
 
   .myphoto-container {
     width: 250px;
@@ -91,8 +66,8 @@ border: 1px solid #333;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 12px; /* Adjust the border radius as needed */
-    filter: grayscale(50%); /* Optional: Apply grayscale effect to the image */
+    border-radius: 12px; 
+    filter: grayscale(50%); 
   }
   
   .overlay {
@@ -104,27 +79,21 @@ border: 1px solid #333;
     background: linear-gradient(45deg, #ff7a7a, #ffd700); /* Change gradient colors */
     mix-blend-mode: multiply; 
   }
-  
-  
-
   .education{
     display: flex;
     justify-content: space-around;
-    /* border: 1px solid red; */
     flex-direction: row;
-    padding: 2rem 3rem;
+    margin: 0 auto;
   }
+ 
   .edu-list{
     display: flex;
     flex-direction: column;
-    margin: 1rem auto;
+    margin: 0 auto;
     align-items: center;
-    /* border: 1px solid red; */
     padding: 3rem 0;
   }
-  .edu-list h1{
-    text-align: start;
-  }
+
   .edu-list-contain{
     display: flex;
     flex-direction: column;
@@ -146,8 +115,18 @@ border: 1px solid #333;
   margin: 15px 0;
 }
   
-  /* Adjust styles to fit your design preferences */
-  
+  @media screen and (max-width:1025px){
+    .education{
+      justify-content: space-around;
+    }
+    .education .right{
+      max-width: 500px;
+      margin: auto;
+  }
+  .edu-container{
+    padding: 1.8rem 2rem;
+    }
+  }
   @media screen and (max-width:768px){
     .about{
      flex-direction: row;
@@ -157,7 +136,7 @@ border: 1px solid #333;
         flex-direction: column;
     }
     .edu-container{
-    padding: 1.5rem 4rem;
+    padding: 1.8rem 4rem;
     }
 }
 
@@ -170,6 +149,23 @@ border: 1px solid #333;
         flex-direction: column;
     }
     .edu-container{
-      padding: .5rem 0;
+      width: 320px;
+      padding: 1rem 1rem;
       }
+}
+@media screen and (max-width:350px){
+  .about{
+   flex-direction: row;
+   flex-wrap: wrap-reverse;
+  }
+  .education{
+      flex-direction: column;
+  }
+  .edu-container{
+    width: 280px;
+    padding: .9rem 1rem;
+    }
+    .edu-container ul li{
+      margin: 9px 0;
+    }
 }
