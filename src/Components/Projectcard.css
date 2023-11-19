@@ -19,24 +19,27 @@
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
     width: 300px;
+    height: 230px;
 }
 .project-content{
     background-color: black;
     margin-top: -6px;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
+    width: 300px;
 }
 .project-content h2{
-    color: #fff;
+    color: rgba(255, 255, 0, 0.906);
     padding: .6rem .5rem;
 }
 .project-content p{
      font-size: 17px;
      line-height: 1.5;
      padding: 0 .5rem;
+     color: #999494;
 }
 .project-content ul{
-    color: #fff;
+    color: orange;
     display: flex;
     justify-content: space-around;
 }
