@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebook, FaGithub, FaHome, FaLinkedin, FaMailBulk, FaMailchimp, FaPhone, FaTwitter } from 'react-icons/fa'
+import { FaFacebook, FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from 'react-icons/fa'
 import "../Components/Footerstyle.css"
 
 function Footer() {
@@ -33,7 +33,7 @@ function Footer() {
             <a href="/"><FaFacebook size={30} style={{color:"#fff",marginRight:"1rem"}}/></a>
            <a href="/"><FaTwitter size={30} style={{color:"#fff",marginRight:"1rem"}}/></a>
            <a href="/"><FaLinkedin size={30} style={{color:"#fff",marginRight:"1rem"}}/></a>
-           <a href="https://github.com/Delhibabu7172" target='_blank'><FaGithub size={30} style={{color:"#fff",marginRight:"1rem"}}/></a>
+           <a href="https://github.com/Delhibabu7172" rel="noreferrer"  target='_blank'><FaGithub size={30} style={{color:"#fff",marginRight:"1rem"}}/></a>
            </div>
         </div>
         </div>
