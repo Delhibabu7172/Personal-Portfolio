@@ -6,28 +6,45 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
+    /* border: 1px solid blue; */
 }
 .hero .content{
     text-align: center;
+    /* border: 1px solid red; */
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
 }
 .hero .right-side{
     display: block;
+    /* border: 1px solid yellow; */
 }
 .right-side img{
     width: 450px;
     border-radius: 50%;
 }
-.hero .text-style h2{
+.text-style{
+    /* border: 1px solid red; */
+    padding: .4rem 0;
+}
+.text-style h2{
 font-size: 2rem;
-margin-right: 10px;
-padding: 0 0 1.5rem;
+padding:0 1.5rem;
 color: #fff;
 }
-.hero .content p{
+.main-heading .media-style{
+    font-size: 2.9rem;
+    color: yellow;
+}
+.main-heading p{
     font-size: 2.9rem;
     font-weight: 200;
     text-transform: uppercase;
+    /* border: 1px solid blue; */
 }
 span{
    font-size: 30px;
@@ -36,15 +53,23 @@ span{
    rgb(0, 255, 21));
 -webkit-background-clip: text;
 color: transparent;
-padding: 0 0 1.5rem;
-
 }
+
+.content .description p{
+    font-size: 1.5rem;
+    /* text-transform: capitalize; */
+    margin-bottom: 30px;
+  max-width: 500px;
+  text-align: center;
+  color: rgb(192, 186, 186);
+  
+}
+
 .text-style{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin: 29px 0;
 }
-
 .content .btn{
     margin: 2rem 0.2rem; 
 }
@@ -56,12 +81,27 @@ padding: 0 0 1.5rem;
     }
     .hero .content{
         margin-top: 40px;
+        width: 300px;
+        height: 300px;
     }
-    .hero .content h1{
-        font-size: 3rem;
+    .text-style h2{
+        font-size: 1.3rem;
+padding:0 .4rem;
     }
-    .hero .content p{
-        font-size: 1.4rem;
+    span{
+        font-size: 1.3rem;
+    }
+    .main-heading .media-style{
+        font-size: 1.7rem;
+    }
+    .content .description p{
+margin-top: -25px;
+  line-height: 1.4;
+  font-size: 1rem;
+    }
+    .main-heading p{
+        font-size: 1.7rem;
+        margin-bottom: -17px;
     }
     .hero .right-side{
          display: block;

@@ -3,7 +3,7 @@ import "./Aboutcontent.css"
 import React from 'react'
 import about2 from "../assets/aboutpagetop.avif"
 import about1 from "../assets/bgtop2.avif"
-import profileph from "../assets/Passport2.jpg"
+import profileph from "../assets/Passport.jpg"
 
 function Aboutcontent() {
   return (

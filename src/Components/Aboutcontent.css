@@ -47,15 +47,24 @@ border: 1px solid #333;
     margin-bottom: 20px;
   }
 
+
   .myphoto-container {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 380px;
     margin: 0 auto;
-    position: relative;
-    overflow: hidden;
+ 
+  }
+  .myphoto{
+    width: 100%;
+    height: 100%;
+  }
+  .myphoto img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
   }
   
-  .myphoto {
+  /* .myphoto {
     width: 100%;
     height: 100%;
     position: relative;
@@ -68,17 +77,17 @@ border: 1px solid #333;
     object-fit: cover;
     border-radius: 12px; 
     filter: grayscale(50%); 
-  }
+  } */
   
-  .overlay {
+  /* .overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, #ff7a7a, #ffd700); /* Change gradient colors */
+    background: linear-gradient(45deg, #ff7a7a, #ffd700);
     mix-blend-mode: multiply; 
-  }
+  } */
   .education{
     display: flex;
     justify-content: space-around;

@@ -24,11 +24,15 @@ function Heroimg() {
   return (
     <div className="hero">
         <div className="content">
-            <p>HI, I'M Delhi Babu</p>
-            {/* <h1>React Developer</h1> */}
+          <div className="main-heading">
+          <p>HI, I'M <span  className="media-style">Delhi Babu</span></p>
+          </div>
             <div className="text-style">
               <h2>Iam A</h2>
               <span ref={typedTextRef}></span>
+            </div>
+            <div className="description">
+            <p>Dedicated Front-End Web Developer with a solid foundation in HTML, CSS, and JavaScript. Experienced in creating responsive and user-friendly web interfaces. </p>
             </div>
             <div>
                 <Link to="https://drive.google.com/file/d/1MDpxB07qHW5cJTahmg-OMMKfR29NWgsL/view?usp=sharing" className="btn">Resume</Link>
