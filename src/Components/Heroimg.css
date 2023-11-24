@@ -6,12 +6,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* padding: 0 1rem; */
-    /* border: 1px solid blue; */
 }
 .hero .content{
     text-align: center;
-    /* border: 1px solid red; */
     width: 500px;
     display: flex;
     flex-direction: column;
@@ -21,14 +18,12 @@
 }
 .hero .right-side{
     display: block;
-    /* border: 1px solid yellow; */
 }
 .right-side img{
     width: 450px;
     border-radius: 50%;
 }
 .text-style{
-    /* border: 1px solid red; */
     padding: .4rem 0;
 }
 .text-style h2{
@@ -44,7 +39,6 @@ color: #fff;
     font-size: 2.9rem;
     font-weight: 200;
     text-transform: uppercase;
-    /* border: 1px solid blue; */
 }
 span{
    font-size: 30px;
@@ -57,7 +51,6 @@ color: transparent;
 
 .content .description p{
     font-size: 1.5rem;
-    /* text-transform: capitalize; */
     margin-bottom: 30px;
   max-width: 500px;
   text-align: center;
@@ -95,13 +88,13 @@ color: transparent;
         font-size: 2.1rem;
     }
     .content .description p{
-margin-top: -20px;
-  /* line-height: 1.4; */
-  font-size: 1.3rem;
+   margin-top: -20px;
+  font-size: 1.6rem;
     }
     .main-heading p{
         font-size:2.1rem;
         margin-bottom: -25px;
+        margin-top: 30px;
     }
     .hero .right-side{
          display: block;
@@ -116,6 +109,11 @@ margin-top: -20px;
     .hero .right-side img{
         width: 300px;
     } 
+    .content .description p{
+        margin-top: -20px;
+       font-size: 1.5rem;
+         }
+
 }
 @media screen and (max-width:350px){
     .hero .right-side img{

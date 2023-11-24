@@ -23,6 +23,7 @@
 .location{
     display: flex;
     margin-bottom: 0.8rem;
+    align-items: center;
 }
 .location p{
     line-height: 28px;

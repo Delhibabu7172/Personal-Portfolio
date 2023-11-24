@@ -10,8 +10,8 @@ function Footer() {
             <div className="location">
                 <FaHome size={20} style={{color:"#fff",marginRight:"2rem"}}/>
                 <div>
-                <p>299 Bajanai Kovil St, Kilarasampet,</p>
-                <p>Vellore.</p>
+                <p>Basavanagudi,Bengaluru</p>
+                <p>Karanataka.</p>
                 </div>
             </div>
            <div className="phone">

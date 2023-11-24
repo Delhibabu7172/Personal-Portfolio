@@ -2,6 +2,7 @@ import "./Heroimg.css"
 import React, { useEffect, useRef } from 'react'
 import { Link } from "react-router-dom"
 import Typed from "typed.js"
+import homepageimg from "../assets/homepg.jpg"
 
 function Heroimg() {
 
@@ -40,7 +41,7 @@ function Heroimg() {
             </div>
         </div>
         <div className="right-side">
-          <img src="https://github.com/RamSanjay08/Personal_Portfolio/blob/main/src/components/Assests/homeImage.jpg?raw=true" alt="" />
+          <img src={homepageimg} alt="" />
         </div>
     </div>
   )
