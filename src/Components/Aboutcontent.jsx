@@ -3,7 +3,7 @@ import "./Aboutcontent.css"
 import React from 'react'
 import about2 from "../assets/aboutpagetop.avif"
 import about1 from "../assets/bgtop2.avif"
-import profileph from "../assets/Passport.jpg"
+import profileph from "../assets/Passport.truejpg.jpg"
 
 function Aboutcontent() {
   return (
@@ -11,18 +11,18 @@ function Aboutcontent() {
     <div className="about">
         
         <div className="left">
-            <h1>Who Am I?</h1>
-            <p>Im a React Front-end Developer. I create responsive secure websites for my clients.</p>
+            <h1>Get to know me!</h1>
+            <p>A Passionate FrontEnd Web Developer & I am Actively seeking a job in the Field of Web & Software Development</p>
+            <p>Iam always excited to learn new things and develop my skills ,especially in the field of new technologies.</p>
+            
             <Link to="/Contact">
                 <button className="btn">Contact</button>
             </Link>
         </div>
-        <div className="myphoto-container">
+
         <div className="myphoto">
             <img src={profileph} alt="" />
-            <div className="overlay"></div>
-            </div>
-     </div>
+        </div>
         
     </div>
     <div className="education">

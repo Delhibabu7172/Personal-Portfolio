@@ -40,7 +40,7 @@ color: #fff;
     font-weight: 200;
     text-transform: uppercase;
 }
-span{
+.text-style span{
    font-size: 30px;
    background: linear-gradient(to left,
    rgb(0, 162, 255),
@@ -81,7 +81,7 @@ color: transparent;
         font-size: 1.5rem;
        padding:0 .4rem;
     }
-    span{
+    .text-style span{
         font-size: 1.5rem;
     }
     .main-heading .media-style{

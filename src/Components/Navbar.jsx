@@ -34,6 +34,9 @@ window.addEventListener("scroll",updatesetheadcolor)
                 <Link to="/Project">Project</Link>
             </li>
             <li>
+                <Link to="/skill">Skills</Link>
+            </li>
+            <li>
                 <Link to="/About">About</Link>
             </li>
             <li>
