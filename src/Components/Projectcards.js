@@ -8,7 +8,7 @@ let projectcarddata=[
         imgsrc:pro1,
         title:"Best Food App",
         text:"Enhanced a food app for better user experience, increasing usage by 30% and boosting downloads by 25% through collaborative improvements.",
-        view:"https://food-app-react-seven.vercel.app/",
+        view:"https://food-app-react-mu.vercel.app/",
         source:"https://github.com/Delhibabu7172/Food-App-React",
         using2:"Javascript",
         using1:"React js",
