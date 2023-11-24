@@ -24,7 +24,7 @@ window.addEventListener("scroll",updatesetheadcolor)
   return (
     <div className={headcolor?("header header-bg"):("header")}>
     <Link to="/">
-        <h1>Portfolio.</h1>
+        <h1>DB <span style={{color:"yellow"}}>Dev.</span></h1>
         </Link>
         <ul className={click ? "nav-menu active" : "nav-menu"} >
             <li>

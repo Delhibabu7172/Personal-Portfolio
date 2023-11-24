@@ -37,8 +37,8 @@ color: #fff;
 }
 .main-heading p{
     font-size: 2.9rem;
-    font-weight: 200;
-    text-transform: uppercase;
+    font-weight: 500;
+    /* text-transform: uppercase; */
 }
 .text-style span{
    font-size: 30px;

@@ -26,10 +26,10 @@ function Heroimg() {
     <div className="hero">
         <div className="content">
           <div className="main-heading">
-          <p>HI, I'M <span  className="media-style">Delhi Babu</span></p>
+          <p>Hi, I'm <span  className="media-style">Delhi Babu</span></p>
           </div>
             <div className="text-style">
-              <h2>Iam A</h2>
+              <h2> & <span style={{marginLeft:"20px",color:"#fff"}}>A</span></h2>
               <span ref={typedTextRef}></span>
             </div>
             <div className="description">
