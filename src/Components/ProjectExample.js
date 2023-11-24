@@ -12,7 +12,7 @@ function ProjectExample() {
             key={id} // Ensure 'index' is unique for each item
             imgsrc={imgsrc}
             title={title}
-            text={text}
+            text={text ? text.slice(0,67)+"..." : text}
             view={view}
             source={source}
             byusing1={using1}
