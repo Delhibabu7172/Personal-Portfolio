@@ -1,4 +1,3 @@
-import { LinearProgress } from '@mui/material'
 import React from 'react'
 import "./Skills.css"
 import skillImage from "../assets/Skillphoto2.png"
@@ -18,22 +17,27 @@ function Skills() {
                     <LaptopMacIcon className='icon'/>
                     <h3>React Js</h3>
                     </div>
-                    <LinearProgress variant="determinate" value={90}/>
+                    <div className='skill-style-main'>
+                         <div className='skill-style-inside' ></div>
+                    </div>
                 </li>
                 <li>
                     <div className='skills-list-details'>
                     <LaptopMacIcon className='icon'/>
                     <h3>JavaScript</h3>
                     </div>
-                    <LinearProgress variant="determinate" value={80}/>
+                    <div className='skill-style-main'>
+                         <div className='skill-style-inside' style={{width:"90%"}}></div>
+                    </div>
                 </li>
                 <li>
-                    
                     <div className='skills-list-details'>
                     <LaptopMacIcon className='icon'/>
                     <h3>MongoDB</h3>
                     </div>
-                    <LinearProgress variant="determinate" value={60}/>
+                    <div className='skill-style-main'>
+                         <div className='skill-style-inside' style={{width:"80%"}}></div>
+                    </div>
                 </li>
                 <li>
                     
@@ -41,7 +45,9 @@ function Skills() {
                     <LaptopMacIcon className='icon'/>
                     <h3>Tailwind CSS</h3>
                     </div>
-                    <LinearProgress variant="determinate" value={70}/>
+                    <div className='skill-style-main'>
+                         <div className='skill-style-inside' style={{width:"80%"}}></div>
+                    </div>
                 </li>
                 <li>
                     
@@ -49,7 +55,9 @@ function Skills() {
                     <LaptopMacIcon className='icon'/>
                     <h3>CSS3</h3>
                     </div>
-                    <LinearProgress variant="determinate" value={94}/>
+                    <div className='skill-style-main'>
+                         <div className='skill-style-inside'></div>
+                    </div>
                 </li>
                 <li>
                     
@@ -57,7 +65,9 @@ function Skills() {
                     <LaptopMacIcon className='icon'/>
                     <h3>HTML5</h3>
                     </div>
-                    <LinearProgress variant="determinate" value={95}/>
+                    <div className='skill-style-main'>
+                         <div className='skill-style-inside'></div>
+                    </div>
                 </li>
                 <li>
                     
@@ -65,7 +75,9 @@ function Skills() {
                     <LaptopMacIcon className='icon'/>
                     <h3>Node JS</h3>
                     </div>
-                    <LinearProgress variant="determinate" value={50}/>
+                    <div className='skill-style-main'>
+                         <div className='skill-style-inside' style={{width:"75%"}}></div>
+                    </div>
                 </li>
                 <li>
                    
@@ -73,7 +85,9 @@ function Skills() {
                     <LaptopMacIcon className='icon'/>
                     <h3>Git</h3>
                     </div>
-                    <LinearProgress variant="determinate" value={86}/>
+                    <div className='skill-style-main'>
+                         <div className='skill-style-inside' style={{width:"88%"}}></div>
+                    </div>
                 </li>
                 <li>
                    
@@ -81,7 +95,9 @@ function Skills() {
                     <LaptopMacIcon className='icon'/>
                     <h3>Bootstrap</h3>
                     </div>
-                    <LinearProgress  variant="determinate" value={90}/>
+                    <div className='skill-style-main'>
+                         <div className='skill-style-inside' style={{width:"85%"}}></div>
+                    </div>
                 </li>
             </ul>
         </div>
