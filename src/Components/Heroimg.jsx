@@ -7,11 +7,6 @@ import hmpg from "../assets/homepageimg.png"
 function Heroimg() {
   return (
     <div className="hero">
-        <div className="mask">
-            {/* <img className="intro-img" src={IntroImg} alt="" /> */}
-        </div>
-       
-        <div className="hp-content">
         <div className="content">
             <p>HI, I'M Delhi Babu</p>
             <h1>React Developer</h1>
@@ -21,8 +16,7 @@ function Heroimg() {
             </div>
         </div>
         <div className="right-side">
-          <img src={hmpg} alt="" />
-        </div>
+          <img src="https://github.com/RamSanjay08/Personal_Portfolio/blob/main/src/components/Assests/homeImage.jpg?raw=true" alt="" />
         </div>
     </div>
   )
