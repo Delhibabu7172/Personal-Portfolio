@@ -3,7 +3,7 @@ import pro2 from "../assets/project2.png"
 import pro3 from "../assets/projectthree.png"
 import pro4 from "../assets/project4.png"
 import pro5 from "../assets/project5.png"
-import pro6 from "../assets/"
+import pro6 from "../assets/project3.png"
 
 
 let projectcarddata=[
