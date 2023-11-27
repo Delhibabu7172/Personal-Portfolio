@@ -3,7 +3,7 @@ import pro2 from "../assets/project2.png"
 import pro3 from "../assets/projectthree.png"
 import pro4 from "../assets/project4.png"
 import pro5 from "../assets/project5.png"
-import pro6 from "../assets/project3.png"
+import pro6 from "../assets/project6.png"
 
 
 let projectcarddata=[
@@ -42,9 +42,9 @@ let projectcarddata=[
     {   id:4,
         imgsrc:pro6,
         title:"React-Movie-App",
-        text:"Discover and enjoy movies easily with this app—it's your gateway to see all the movies!",
-        view:"https://delhibabu7172.github.io/Movie-App-JS/",
-        source:"https://github.com/Delhibabu7172/Movie-App-JS",
+        text:"Discover and enjoy movies easily with this app—it's your gateway to see all the movies ratings!",
+        view:"https://react-movie-app-theta-seven.vercel.app/",
+        source:"https://github.com/Delhibabu7172/React-Movie-App",
         using2:"Javascript",
         using1:"React js",
         using3:"CSS"
